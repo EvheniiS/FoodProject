@@ -1,3 +1,5 @@
+'use strict';
+
 window.addEventListener('DOMContentLoaded', function() {
 
     // Tabs
@@ -515,7 +517,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
 
     calcTotal();
-    
+
     function initLocalSettings(selector, activeClass) {
         const elements = document.querySelectorAll(selector);
 
